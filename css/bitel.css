@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+}
+body{
+  background-color: rgb(163, 38, 38);
+}
+header{
+  background-color: rgb(163, 38, 38);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navigasi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.judul{
+  color: rgb(255, 254, 254);
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.judul:hover{
+  color: rgb(44, 43, 43);
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+.list li{
+  display: flex;
+}
+.list li a{
+  color: rgb(255, 249, 249);
+  background-color:  rgb(13, 20, 77);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.list li a:hover{
+  background-color:  rgb(5, 8, 29);
+  color: white;
+}
+.gambar{
+  background-image: url(../img/bitel2.jpg);
+  background-size: cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambartulisan{
+  color: yellow;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 70px;
+  margin-top: 75px;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+.gambartulisan:hover{
+  transform: scale(1.05);
+}
+.gambarnama{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+.kotak1{
+  background-color: rgb(13, 20, 77);
+  padding: 30px;
+  border: 20px;
+  margin: 15px;
+  border-radius: 20px;
+}
+.kotak1judul{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.kotak1bacotan{
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+.kotak2{
+  align-items: center;
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 35px;
+}
+.kotak2judul{
+  font-size: 45px;
+  text-align: center;
+  color: yellow;
+}
+.kotak2dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pidiotulisan{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pidio{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.video iframe{
+  height: 220px;
+  width: 400px;
+}
+.lagutulisan{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.lagu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lagu audio{
+  margin: 7px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(13, 20, 77);
+  padding: 30px;
+}
+
+.penutup{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 15px;
+}
